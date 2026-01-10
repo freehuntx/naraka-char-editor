@@ -4,6 +4,8 @@ A web-based tool for editing Naraka: Bladepoint character customization data. Th
 
 **Access the tool here:** [https://freehuntx.github.io/naraka-char-editor](https://freehuntx.github.io/naraka-char-editor)
 
+> Disclaimer: This project is heavily vibe-coded using Gemini 3 Pro
+
 ## Features
 
 ### Import and Export
