@@ -42,7 +42,7 @@ export async function readQRCodeFromCanvas(canvas: HTMLCanvasElement): Promise<s
 export async function fetchNarakaData(input: string): Promise<string> {
   if (/^https?:\/\//.test(input)) {
     try {
-      const response = await fetch(`https://proxy.corsfix.com?${input}`);
+      const response = await (window as any).puter.net.fetch(input);
       if (!response.ok) throw new Error("Failed to fetch Naraka data from URL");
       return await response.text();
     } catch (e) {
